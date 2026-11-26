@@ -1,0 +1,15 @@
+{
+  "aspect_weights": {"city": 0.5, "scenic": 0.3, "accessible": 0.2},
+  "candidates": [
+    {"id": "city-loop", "relevance": 0.96, "aspects": {"city": 1}},
+    {"id": "station-loop", "relevance": 0.93, "aspects": {"city": 0.95}},
+    {"id": "market-loop", "relevance": 0.90, "aspects": {"city": 0.9}},
+    {"id": "forest-route", "relevance": 0.85, "aspects": {"scenic": 0.9}},
+    {"id": "ramp-route", "relevance": 0.81, "aspects": {"accessible": 1}},
+    {"id": "river-route", "relevance": 0.80, "aspects": {"scenic": 0.65, "accessible": 0.45}}
+  ],
+  "judgments": {
+    "city-loop": ["city"], "station-loop": ["city"], "market-loop": ["city"],
+    "forest-route": ["scenic"], "ramp-route": ["accessible"]
+  }
+}
